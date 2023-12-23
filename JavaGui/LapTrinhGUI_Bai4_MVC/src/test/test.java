@@ -1,0 +1,23 @@
+package test;
+
+import model.CounterModel;
+import view.CounterView;
+
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		CounterModel ct = new CounterModel();
+		ct.increment();
+		ct.increment();
+		ct.increment();
+		System.out.println(ct.getValue());
+		ct.decrement();
+		System.out.println(ct.getValue());
+		
+		
+		CounterView ctv = new CounterView();
+	}
+
+}

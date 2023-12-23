@@ -1,0 +1,1 @@
+package JavaCollections.model;
